@@ -206,7 +206,7 @@
     },
     "packageManager": "pnpm@10.26.0+sha512.3b3f6c725ebe712506c0ab1ad4133cf86b1f4b687effce62a9b38b4d72e3954242e643190fc51fa1642949c735f403debd44f5cb0edd657abe63a8b6a7e1e402",
     "engines": {
-        "node": "20.x"
+        "node": "^22.20.0 || ^24"
     },
     "pnpm": {
         "onlyBuiltDependencies": [
@@ -235,6 +235,9 @@
             "hasown": "npm:@nolyfill/hasown@^1",
             "is-core-module": "npm:@nolyfill/is-core-module@^1",
             "js-beautify@1.15.4>glob": "^10.5.0",
+            "jsdom@27.3.0": {  
+                "parse5": "^7.1.2"
+            },
             "rss-parser@3.13.0>entities": "^7.0.0",
             "rss-parser@3.13.0>xml2js": "^0.6.2",
             "safe-buffer": "npm:@nolyfill/safe-buffer@^1",
